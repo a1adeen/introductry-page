@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#head{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+
+
+/* willl use this latet */
+
+    /* background:linear-gradient(
+        to right,
+        var(--purple)
+        var(--voilet)
+        var(--pink)
+        var(--purple)
+    );
+    --webkit-background-clips:text;
+    
+     */
+}
+
+header{
+    background-color: rgb(145, 8, 236);
+    height: 100px;
+    position: sticky;
+    top:0;
+}
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
+main{
+   height: 1000px;
+   background-color: black;
+   position: relative;
+   z-index: 3;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
