@@ -60,7 +60,7 @@ main{
     position: sticky;
 
 }
-#IMAGE{
+ /* #IMAGE{
     color: aliceblue;
     display: flex;
     justify-content:center;
@@ -71,9 +71,9 @@ main{
     padding-left: 0;
     padding-right:0 ;
     width: max-content;
-    /* clip-path: circle(); */
+     clip-path: circle();
     
-}
+ }   */
 #link{
     text-decoration: none;
     color:rgb(199, 192, 163);
@@ -84,7 +84,7 @@ main{
     display: flex;
     width: max-content;
     font-size: x-large;
-    transform: translate(39vw , 65vw);
+    transform: translate(39vw , 12.6vw);
     
 }
 
@@ -98,5 +98,21 @@ main{
     display: flex;
     width: max-content;
     font-size: x-large;
-    transform: translate(49vw , 62.31vw);
+    transform: translate(49vw , 10vw);
+}
+#image{
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(79, 71, 71);
+
 }
