@@ -82,7 +82,7 @@ main{
     white-space: nowrap;
     display: flex;
     width: max-content;
-    transform: translate(670px , 800px);
+    transform: translate(40vw , 60vw);
     font-size: x-large;
     
 }
